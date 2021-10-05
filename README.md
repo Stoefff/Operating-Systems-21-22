@@ -1,6 +1,10 @@
-# Operating-Systems-20-21
-Repos for all the materials and code from the Operating Systems 2020-2012 course at FMI
+# Operating Systems @ FMI 2021/2022
+Repository for the materials and code from the Operating Systems 2021/2022
+course at FMI
 
-## General info:
+## Topics:
+* Week01 - course organization, Linux basics, ls -la, file permissions
 
-**TODO**
+## Useful links:
+
+### The lecture notes from the 2020/2021 course are on branch `year-20-21` 
