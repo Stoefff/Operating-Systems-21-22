@@ -1,6 +1,6 @@
 ### Velin exercise - 05.10.21
 
-## Operating systems
+## Operating systems basics
 
 ### Organization stuff
 * velin@fmi.uni-sofia.bg
@@ -27,9 +27,9 @@
 * Serial - oldschool
 * Virtual - TTY, PuTTY
 * shell - helps us interact with the kernel
-** build-in commands - directly from the kernal
-** external commands - the kernel know where to find the executables and do them
-** type command - to check if its build in or external
+    * build-in commands - directly from the kernal  
+    * external commands - the kernel know where to find the executables and do them
+    * type command - to check if its build in or external
 
 ### Session
 * Metainfo about the session
@@ -46,7 +46,7 @@ program (context) - default section is 1
 
 **We will need to read the man page of every command we learn**
 
-## File systems
+### File systems
 * file - any object in the file system
 * relative and absolute paths
 * In Linux there is only one root, in Windows there are many - C:, D:

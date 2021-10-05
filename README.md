@@ -7,4 +7,4 @@ course at FMI
 
 ## Useful links:
 
-### The lecture notes from the 2020/2021 course are on branch `year-20-21` 
+#### The lecture notes from the 2020/2021 course are on branch `year-20-21` 
