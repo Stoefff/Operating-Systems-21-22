@@ -83,7 +83,7 @@ that is in machine readable format to use**
 
 ### Special permission with dir files
 * Set UID upon execution - does nothing
-* Set GroupUID upon execution - very interesting, gonna talk about it next lecture
+* Set GroupUID upon execution - inherit user and not perms ??
 * Sticky Bit - if you want to delete a files you should be owner of the file
 
 ### File ownership
