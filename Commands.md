@@ -24,12 +24,42 @@ Notes structure:
 * ls -l - more details about the file
 * ls -a - includes hidden files(those that start with .)
 * ls -d - info about the current directory, not its contents
+* ls -i - display inode information
 
-## mkdir
-## touch
+## `mkdir`
+### Makes directories
+* mkdir Foo
+
+## rmdir
+### Removes directories
+* rmdir Foo/
+
 ## cp
-## mv
+### Copies a file
+* cp ./foo.bar ../../Test/
+
 ## scp
+### Secure copy - securely and remotely copies a files between 2 hosts
+* scp s45384@astero.openfmi.net <remote path> <local path> - relative path supported
+
+## mv
+### Moves and/or renames a file
+* mv ./foo.bar ../../Test/ - to move
+* mv ./foo.bar ./bar.foo - to rename
+* mv ./foo.bar ../../Test/bar.foo - to move and rename
+
+## rm
+### Deletes files and directories
+* rm foo.bar
+* rm -f foo.bar - force delete and stop prompt
+* rm -r Foo/ - recursively delete everything in Foo/ and the dir
+
+## touch
+### Change file timestamp or create a file with current timestamp
+* touch foo.bar - create file foo.bar if its non-existent
+* touch -a foo.bar  - replaces atime with the current time
+* touch -m foo.bar - replaces mtime with the current time
+* touch -da foo.bar - replaces atime with the data provided
 
 ## man
 ### Manual for most of Linux commands and functionality
@@ -69,7 +99,7 @@ Notes structure:
 * whoami
 
 ## su
-## Change user
+### Change user
 * su - change user to root
 * su stoefff - change user to stoefff
 * su -l - provide environment
@@ -101,3 +131,17 @@ Notes structure:
 ## ssh
 ### Remote login program using OpenSSH
 * ssh s12345@astero.fmi.org
+
+## umask
+## ln, ln -s
+## df ...
+## du ...
+## stat ...
+## file
+## cat
+## more
+## less
+## head
+## tail ...
+## strings
+## xdd
